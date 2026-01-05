@@ -5,7 +5,7 @@ import webExtension from '@samrum/vite-plugin-web-extension';
 import tailwindcss from '@tailwindcss/vite';
 
 import react from '@vitejs/plugin-react';
-import {getManifest} from '~/manifest';
+import {getManifest} from './src/manifest';
 
 export default defineConfig(() => {
   return {
